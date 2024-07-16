@@ -9,7 +9,7 @@ const app = express();
 
 app.use('/api/v1/users', userrouters);
 app.get("/",(req,res)=>{
-    res.send('<h1> Welcome to myMy Job Portal</<h1>')
+    res.send('<h1> Welcome to myMy   Job Portal</<h1>')
 });
 
 const PORT = process.env.PORT
